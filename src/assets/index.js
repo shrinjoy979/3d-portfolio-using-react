@@ -22,13 +22,12 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import betalogics from "./company/betalogics.png";
+import think201 from "./company/think201.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ultimateBlogApp from "./ultimate-blog-app.png";
+import chatbot from "./chatgpt-chatbot.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -53,10 +52,9 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  betalogics,
+  think201,
+  ultimateBlogApp,
+  chatbot,
+  portfolio,
 };
