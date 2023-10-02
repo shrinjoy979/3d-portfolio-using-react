@@ -8,19 +8,21 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
+  laravel,
+  sql,
   git,
+  nextjs,
   figma,
-  docker,
+  php,
+  prisma,
+  tRPC,
   think201,
   betalogics,
   ultimateBlogApp,
   chatbot,
   portfolio,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -75,12 +77,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Next.js",
+    icon: nextjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Tailwind CSS",
@@ -91,24 +93,20 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "PHP",
+    icon: php,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Laravel",
+    icon: laravel,
   },
   {
-    name: "git",
-    icon: git,
+    name: "SQL",
+    icon: sql,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Prisma",
+    icon: prisma,
   },
 ];
 
