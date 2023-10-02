@@ -15,13 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  think201,
+  betalogics,
+  ultimateBlogApp,
+  chatbot,
+  portfolio,
   threejs,
 } from "../assets";
 
@@ -46,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Aspiring Web3 Developer",
     icon: creator,
   },
 ];
@@ -116,55 +114,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Full Time",
+    company_name: "THINK201",
+    icon: think201,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "December 2019 - Currently working",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained full-stack web applications using Next.js, ReactJS, Angular, MUI, CSS, JavaScript, jQuery, TypeScript, PHP, Laravel, Node.js, SQL, and Ionic Framework.",
+      "Implemented and maintained integration with third-party services and libraries.",
+      "Developed new features and maintained existing ones.",
+      "Developed and maintained client-side and server-side APIs for mobile and web applications.",
+      "Optimized web application performance and scalability.",
+      "Participated in code reviews to ensure adherence to best practices and standards.",
+      "Provided technical guidance and mentorship to junior developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Internship",
+    company_name: "THINK201",
+    icon: think201,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2019 - December 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "The main work that I have done in the organization is related to front-end and back-end development using  WordPress, HTML, SASS, JavaScript,  jQuery, Bootstrap, PHP, Laravel, and SQL. Apart from this, I have exposure to working in mobile App development using Ionic Framework. ",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer Internship",
+    company_name: "Betalogics Consultancy Services",
+    icon: betalogics,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "January 2019 - August 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Within this position, I used to build mobile responsive web pages, build APIs, and handle databases using HTML, CSS, JavaScript, jQuery, PHP, SQL, Ajax, and WordPress.",
     ],
   },
 ];
@@ -198,16 +183,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ultimate Blog App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform that allows users to publish blog posts and follow each other.",
     tags: [
       {
-        name: "react",
+        name: "tRPC",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ultimateBlogApp,
+    source_code_link:
+      "https://github.com/shrinjoy979/ultimate-blog-app-using-t3-stack",
+  },
+  {
+    name: "ChatGPT Chatbot",
+    description: "An interacting Node.js chatbot using ChatGPT.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chatbot,
+    source_code_link:
+      "https://github.com/shrinjoy979/chatgpt-chatbot-using-nodejs",
+  },
+  {
+    name: "3D Portfolio",
+    description: "A 3D portfolio using React.js, Three.js, and tailwind.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +238,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/shrinjoy979/3d-portfolio-using-react",
   },
 ];
 
