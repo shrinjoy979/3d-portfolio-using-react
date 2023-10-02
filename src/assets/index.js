@@ -20,6 +20,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import laravel from "./tech/laravel.png";
+import sql from "./tech/sql.jpeg";
+import php from "./tech/php.png";
+import prisma from "./tech/prisma.png";
+import tRPC from "./tech/tRPC.svg";
 
 import meta from "./company/meta.png";
 import betalogics from "./company/betalogics.png";
@@ -51,6 +57,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  nextjs,
+  laravel,
+  sql,
+  php,
+  prisma,
+  tRPC,
   meta,
   betalogics,
   think201,
