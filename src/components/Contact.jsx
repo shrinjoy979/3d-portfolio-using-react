@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { linkedin } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -70,12 +71,25 @@ const Contact = () => {
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={`${styles.sectionHeadText} flex items-center`}>
+          Contact. &nbsp;
+          <img
+            src={linkedin}
+            alt="Linkedin"
+            className="w-10 h-10 cursor-pointer"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/shrinjoy-saha/",
+                "_blank"
+              )
+            }
+          />
+        </h3>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-8 flex flex-col gap-8"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
