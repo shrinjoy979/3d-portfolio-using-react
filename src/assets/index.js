@@ -31,6 +31,7 @@ import tRPC from "./tech/tRPC.svg";
 import meta from "./company/meta.png";
 import betalogics from "./company/betalogics.png";
 import think201 from "./company/think201.png";
+import tetriqSolutions from "./company/tetriq-solutions.png";
 
 import ultimateBlogApp from "./ultimate-blog-app.png";
 import chatbot from "./chatgpt-chatbot.png";
@@ -71,4 +72,5 @@ export {
   ultimateBlogApp,
   chatbot,
   portfolio,
+  tetriqSolutions
 };

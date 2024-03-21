@@ -18,6 +18,7 @@ import {
   php,
   prisma,
   tRPC,
+  tetriqSolutions,
   think201,
   betalogics,
   ultimateBlogApp,
@@ -113,10 +114,22 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer Full Time",
+    company_name: "TetriQ Solutions PVT LTD - REMOTE",
+    icon: tetriqSolutions,
+    iconBg: "#383E56",
+    date: "November 2023 - Currently Working",
+    points: [
+      "Maintained full-stack web applications using ReactJS, Node.js, MUI, CSS, JavaScript, TypeScript, MongoDB and GraphQL",
+      "Developed new features and maintained existing ones",
+      "Optimized web application performance and scalability"
+    ],
+  },
+  {
+    title: "Software Engineer Full Time",
     company_name: "THINK201",
     icon: think201,
     iconBg: "#383E56",
-    date: "December 2019 - Currently working",
+    date: "December 2019 - September 2023",
     points: [
       "Developed and maintained full-stack web applications using Next.js, ReactJS, Angular, MUI, CSS, JavaScript, jQuery, TypeScript, PHP, Laravel, Node.js, SQL, and Ionic Framework.",
       "Implemented and maintained integration with third-party services and libraries.",
