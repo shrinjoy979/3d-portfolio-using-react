@@ -228,6 +228,7 @@ const projects = [
     ],
     image: snakeWin,
     source_code_link: "https://github.com/shrinjoy979/multiplayer-snake-and-ladder-game-frontend",
+    live_link: "https://snake-win.vercel.app/"
   },
   {
     name: "SOLi",
@@ -248,6 +249,7 @@ const projects = [
     ],
     image: SOLi,
     source_code_link: "https://github.com/shrinjoy979/SOLi",
+    live_link: "https://sol-i.vercel.app/"
   },
   {
     name: "Ultimate Blog App",
@@ -272,8 +274,7 @@ const projects = [
       },
     ],
     image: ultimateBlogApp,
-    source_code_link:
-      "https://github.com/shrinjoy979/ultimate-blog-app-using-t3-stack",
+    source_code_link: "https://github.com/shrinjoy979/ultimate-blog-app-using-t3-stack",
   },
   {
     name: "ChatGPT Chatbot",
