@@ -252,7 +252,7 @@ const projects = [
   {
     name: "Ultimate Blog App",
     description:
-      "A web-based platform that allows users to publish blog posts and follow each other.",
+      "A web-based platform that allows users to publish blog posts, follow and share each other. Users can also comment on posts and engage in meaningful discussions.",
     tags: [
       {
         name: "tRPC",

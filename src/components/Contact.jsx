@@ -8,6 +8,8 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { linkedin } from "../assets";
 
+import { MdEmail, MdPhone } from 'react-icons/md';
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -85,6 +87,18 @@ const Contact = () => {
             }
           />
         </h3>
+        <p className={styles.sectionSubText}>
+          <a href="mailto:shrinjoysaha41@gmail.com" className="flex items-center gap-2">
+            <MdEmail className="text-lg" />
+            shrinjoysaha41@gmail.com
+          </a>
+        </p>
+        <p className={styles.sectionSubText}>
+          <a href="tel:+919007829306" className="flex items-center gap-2">
+            <MdPhone className="text-lg" />
+            +91 9007829306
+          </a>
+        </p>
 
         <form
           ref={formRef}
