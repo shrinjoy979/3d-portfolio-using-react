@@ -24,6 +24,8 @@ import {
   ultimateBlogApp,
   chatbot,
   portfolio,
+  snakeWin,
+  SOLi
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Aspiring Web3 Developer",
+    title: "Aspiring SOLANA Developer",
     icon: creator,
   },
 ];
@@ -193,6 +195,50 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "SnakeWin",
+    description: "A real-time multiplayer Snake and Ladder game where players place bets using Solana. The winner takes double the bet amount of Solana rewards, classic gameplay.",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web3.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: snakeWin,
+    source_code_link: "https://github.com/shrinjoy979/multiplayer-snake-and-ladder-game-frontend",
+  },
+  {
+    name: "SOLi",
+    description: "Developed a robust feature enabling users to create custom tokens, request airdrops, transfer Solana among accounts, sign messages, and swap tokens.",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web3.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: SOLi,
+    source_code_link: "https://github.com/shrinjoy979/SOLi",
+  },
   {
     name: "Ultimate Blog App",
     description:
