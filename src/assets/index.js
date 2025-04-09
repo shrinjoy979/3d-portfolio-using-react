@@ -27,6 +27,8 @@ import sql from "./tech/sql.jpeg";
 import php from "./tech/php.png";
 import prisma from "./tech/prisma.png";
 import tRPC from "./tech/tRPC.svg";
+import rust from "./tech/rust.png";
+import solana from "./tech/solana.jpeg";
 
 import meta from "./company/meta.png";
 import betalogics from "./company/betalogics.png";
@@ -68,6 +70,8 @@ export {
   php,
   prisma,
   tRPC,
+  rust,
+  solana,
   meta,
   betalogics,
   think201,

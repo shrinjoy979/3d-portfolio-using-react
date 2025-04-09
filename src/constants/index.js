@@ -16,6 +16,8 @@ import {
   nextjs,
   figma,
   php,
+  rust,
+  solana,
   prisma,
   tRPC,
   tetriqSolutions,
@@ -110,6 +112,14 @@ const technologies = [
   {
     name: "Prisma",
     icon: prisma,
+  },
+  {
+    name: "Rust",
+    icon: rust,
+  },
+  {
+    name: "SOLANA",
+    icon: solana,
   },
 ];
 
