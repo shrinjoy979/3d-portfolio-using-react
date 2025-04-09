@@ -33,9 +33,11 @@ import betalogics from "./company/betalogics.png";
 import think201 from "./company/think201.png";
 import tetriqSolutions from "./company/tetriq-solutions.png";
 
-import ultimateBlogApp from "./ultimate-blog-app.png";
-import chatbot from "./chatgpt-chatbot.png";
-import portfolio from "./portfolio.png";
+import ultimateBlogApp from "./projects/ultimate-blog-app.png";
+import chatbot from "./projects/chatgpt-chatbot.png";
+import portfolio from "./projects/portfolio.png";
+import snakeWin from "./projects/snake-win.png";
+import SOLi from "./projects/sol-i.png";
 
 export {
   logo,
@@ -72,5 +74,7 @@ export {
   ultimateBlogApp,
   chatbot,
   portfolio,
+  snakeWin,
+  SOLi,
   tetriqSolutions
 };
