@@ -40,6 +40,7 @@ import chatbot from "./projects/chatgpt-chatbot.png";
 import portfolio from "./projects/portfolio.png";
 import snakeWin from "./projects/snake-win.png";
 import SOLi from "./projects/sol-i.png";
+import aiObjectDetector from "./projects/ai-object-detector.png"
 
 export {
   logo,
@@ -80,5 +81,6 @@ export {
   portfolio,
   snakeWin,
   SOLi,
+  aiObjectDetector,
   tetriqSolutions
 };
