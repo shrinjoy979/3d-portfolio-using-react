@@ -27,7 +27,8 @@ import {
   chatbot,
   portfolio,
   snakeWin,
-  SOLi
+  SOLi,
+  aiObjectDetector
 } from "../assets";
 
 export const navLinks = [
@@ -252,9 +253,25 @@ const projects = [
     live_link: "https://sol-i.vercel.app/"
   },
   {
+    name: "AI - Thief Detection",
+    description: "AI Theft Detection Alarm system instantly triggers a loud security alert when a camera detects unauthorized human presence or intrusion.",
+    tags: [
+      {
+        name: "TensorFlow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      }
+    ],
+    image: aiObjectDetector,
+    source_code_link: "https://github.com/shrinjoy979/ai-object-detector-nextjs",
+    live_link: "https://ai-object-detector.vercel.app/"
+  },
+  {
     name: "Ultimate Blog App",
-    description:
-      "A web-based platform that allows users to publish blog posts, follow and share each other. Users can also comment on posts and engage in meaningful discussions.",
+    description: "A web platform where users can publish blogs, follow others, share posts, and engage through comments and discussions.",
     tags: [
       {
         name: "tRPC",
