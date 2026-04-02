@@ -18,8 +18,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Shrinjoy</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a 2019 graduate in computer science, I have worked in the full-stack development field for the past 6 years and am comfortable in JavaScript, TypeScript, React, Next.js, Node.js, Express, SQL, PHP, and Laravel. <br />
-            Currently learning tRPC, Prisma, Docker, Containerization, GraphQL, CI/CD, Solana programming and Solidity through online coursework and personal projects.
+            I'm a 2019 graduate in computer science, I have worked in the full-stack development field for the past 7 years+ and am comfortable in JavaScript, TypeScript, React, Next.js, Node.js, Express, SQL, PHP, and Laravel. <br />
+            Currently learning tRPC, Prisma, Docker, Containerization, GraphQL, CI/CD, Solana programming through online coursework and personal projects.
           </p>
         </div>
       </div>
