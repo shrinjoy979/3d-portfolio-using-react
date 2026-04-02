@@ -28,7 +28,8 @@ import {
   portfolio,
   snakeWin,
   SOLi,
-  aiObjectDetector
+  aiObjectDetector,
+  soliChromeExtension
 } from "../assets";
 
 export const navLinks = [
@@ -307,25 +308,46 @@ const projects = [
       "https://github.com/shrinjoy979/chatgpt-chatbot-using-nodejs",
   },
   {
-    name: "3D Portfolio",
-    description: "A 3D portfolio using React.js, Three.js, and tailwind.",
+    name: "SOLi - Chrome Extension",
+    description: "Solana wallet adapter with Chrome extension for wallet import, seed generation, SOL transfers, and transaction tracking.",
     tags: [
       {
-        name: "Next.js",
+        name: "Solana",
         color: "blue-text-gradient",
       },
       {
-        name: "Three.js",
+        name: "Web3.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
-    image: portfolio,
-    source_code_link: "https://github.com/shrinjoy979/3d-portfolio-using-react",
+    image: soliChromeExtension,
+    source_code_link:
+      "https://github.com/shrinjoy979/solana-wallet-adapter-chrome-extensions",
   },
+  // {
+  //   name: "3D Portfolio",
+  //   description: "A 3D portfolio using React.js, Three.js, and tailwind.",
+  //   tags: [
+  //     {
+  //       name: "Next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Three.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: portfolio,
+  //   source_code_link: "https://github.com/shrinjoy979/3d-portfolio-using-react",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
