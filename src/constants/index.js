@@ -29,7 +29,9 @@ import {
   snakeWin,
   SOLi,
   aiObjectDetector,
-  soliChromeExtension
+  soliChromeExtension,
+  careStake,
+  solanaICODapp
 } from "../assets";
 
 export const navLinks = [
@@ -61,7 +63,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Aspiring SOLANA Developer",
+    title: "SOLANA Developer",
     icon: creator,
   },
 ];
@@ -208,6 +210,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "CareStake",
+    description: "CareStake is a decentralized healthcare protocol built on Solana that aligns incentives between patients and healthcare providers. It uses staking and outcome-based rewards to encourage better long-term patient health.",
+    tags: [
+      {
+        name: "Rust",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solana",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: careStake,
+    source_code_link: "https://github.com/shrinjoy979/care-stake-solana",
+    live_link: "https://care-stake.vercel.app/"
+  },
+  {
     name: "SnakeWin",
     description: "A real-time multiplayer Snake and Ladder game where players place bets using Solana. The winner takes double the bet amount of Solana rewards, classic gameplay.",
     tags: [
@@ -252,6 +275,48 @@ const projects = [
     image: SOLi,
     source_code_link: "https://github.com/shrinjoy979/SOLi",
     live_link: "https://sol-i.vercel.app/"
+  },
+  {
+    name: "Solana ICO Platform",
+    description: "A Solana-based ICO dApp where users can buy tokens with SOL, track balances, and verify on-chain transactions in real time.",
+    tags: [
+      {
+        name: "Rust",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solana",
+        color: "Pink-text-gradient",
+      }
+    ],
+    image: solanaICODapp,
+    source_code_link: "https://github.com/shrinjoy979/Solana-ICO-DApp",
+    live_link: "https://solana-ico-d-app-ten.vercel.app/"
+  },
+  {
+    name: "SOLi - Chrome Extension",
+    description: "Solana wallet adapter with Chrome extension for wallet import, seed generation, SOL transfers, and transaction tracking.",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web3.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: soliChromeExtension,
+    source_code_link:
+      "https://github.com/shrinjoy979/solana-wallet-adapter-chrome-extensions",
   },
   {
     name: "AI - Thief Detection",
@@ -307,27 +372,7 @@ const projects = [
     source_code_link:
       "https://github.com/shrinjoy979/chatgpt-chatbot-using-nodejs",
   },
-  {
-    name: "SOLi - Chrome Extension",
-    description: "Solana wallet adapter with Chrome extension for wallet import, seed generation, SOL transfers, and transaction tracking.",
-    tags: [
-      {
-        name: "Solana",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Web3.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TypeScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: soliChromeExtension,
-    source_code_link:
-      "https://github.com/shrinjoy979/solana-wallet-adapter-chrome-extensions",
-  },
+  
   // {
   //   name: "3D Portfolio",
   //   description: "A 3D portfolio using React.js, Three.js, and tailwind.",
