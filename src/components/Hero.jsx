@@ -19,7 +19,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm a 2019 graduate in computer science, I have worked in the full-stack development field for the past 7 years+ and am comfortable in JavaScript, TypeScript, React, Next.js, Node.js, Express, SQL, PHP, and Laravel. <br />
-            Currently learning tRPC, Prisma, Docker, Containerization, GraphQL, CI/CD, Solana programming through online coursework and personal projects.
+            Currently learning Rust, Solana, web3.js, Prisma, Docker, Containerization, GraphQL, CI/CD programming through online coursework and personal projects.
           </p>
         </div>
       </div>

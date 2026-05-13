@@ -42,6 +42,8 @@ import snakeWin from "./projects/snake-win.png";
 import SOLi from "./projects/sol-i.png";
 import aiObjectDetector from "./projects/ai-object-detector.png";
 import soliChromeExtension from "./projects/soli-chrome-extension.png";
+import careStake from "./projects/carestake.png";
+import solanaICODapp from "./projects/solana-ico-daap.png";
 
 export {
   logo,
@@ -84,5 +86,7 @@ export {
   SOLi,
   aiObjectDetector,
   soliChromeExtension,
-  tetriqSolutions
+  tetriqSolutions,
+  careStake,
+  solanaICODapp
 };
