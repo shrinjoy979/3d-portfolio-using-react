@@ -31,7 +31,8 @@ import {
   aiObjectDetector,
   soliChromeExtension,
   careStake,
-  solanaICODapp
+  solanaICODapp,
+  solanaIcon
 } from "../assets";
 
 export const navLinks = [
@@ -51,20 +52,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "SOLANA Developer",
+    icon: solanaIcon,
+  },
+  {
+    title: "Full Stack Engineer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Smart Contract Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web3 Engineer",
     icon: backend,
-  },
-  {
-    title: "SOLANA Developer",
-    icon: creator,
   },
 ];
 
@@ -210,7 +211,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "CareStake",
+    name: "CareStake - Solana Healthcare Protocol",
     description: "CareStake is a decentralized healthcare protocol built on Solana that aligns incentives between patients and healthcare providers. It uses staking and outcome-based rewards to encourage better long-term patient health.",
     tags: [
       {
@@ -231,7 +232,7 @@ const projects = [
     live_link: "https://care-stake.vercel.app/"
   },
   {
-    name: "SnakeWin",
+    name: "SnakeWin — Multiplayer Game on Solana",
     description: "A real-time multiplayer Snake and Ladder game where players place bets using Solana. The winner takes double the bet amount of Solana rewards, classic gameplay.",
     tags: [
       {
@@ -256,7 +257,7 @@ const projects = [
     live_link: "https://snake-win.vercel.app/"
   },
   {
-    name: "SOLi",
+    name: "SOLi - A Complete Solana Toolkit",
     description: "Developed a robust feature enabling users to create custom tokens, request airdrops, transfer Solana among accounts, sign messages, and swap tokens.",
     tags: [
       {
@@ -277,7 +278,7 @@ const projects = [
     live_link: "https://sol-i.vercel.app/"
   },
   {
-    name: "Solana ICO Platform",
+    name: "Solana ICO Launchpad",
     description: "A Solana-based ICO dApp where users can buy tokens with SOL, track balances, and verify on-chain transactions in real time.",
     tags: [
       {

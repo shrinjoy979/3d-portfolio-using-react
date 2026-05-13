@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
+import solanaIcon from "./solana.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -88,5 +89,6 @@ export {
   soliChromeExtension,
   tetriqSolutions,
   careStake,
-  solanaICODapp
+  solanaICODapp,
+  solanaIcon
 };
