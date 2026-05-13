@@ -47,12 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Next.js, React.js,
-        Node.js, Laravel, PHP, TypeScript, JavaScript, MUI, Bootstrap, Tailwind
-        CSS, SQL, Prisma and tRPC. I'm a quick learner and collaborate closely
-        with clients to create efficient, scalable, and user-friendly solutions
-        that solve real-world problems. Let's work together to bring your ideas
-        to life!
+        Full Stack Developer with 7+ years of experience building scalable web applications and modern digital products using React, Next.js, Node.js, TypeScript, PHP, Laravel, SQL, and MongoDB. Currently focused on developing Solana-based Web3 applications, smart contracts, and decentralized systems using Rust, Anchor, and Web3.js.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
